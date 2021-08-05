@@ -1,11 +1,6 @@
-//
-//  ExerciseView.swift
-//  Paged
-//
-//  Created by Pedro on 05-08-21.
-//
 
 import SwiftUI
+import AVKit
 
 struct ExerciseView: View {
     let videoNames = ["squat", "step-up", "burpee", "sun-salute"]
@@ -16,11 +11,21 @@ struct ExerciseView: View {
     
     var body: some View {
         VStack {
-            HeaderView(exerciseName: exerciseNames[index]); Text("Video player")
-          Text("Timer")
-          Text("Start/Done button")
-          Text("Rating")
-          Text("History button")
+
+
+            HeaderView(exerciseName: exerciseNames[index]);
+            
+            if let url = Bundle.main.url(
+             forResource: videoNames[index],
+             withExtension: "mp4") {
+                VideoPlayer(player: AVPlayer(url: url))
+            } else {
+                Text("Couldn’t find \(videoNames[index]).mp4")
+                 .foregroundColor(.red)            }
+            Text("Timer")
+            Text("Start/Done button")
+            Text("Rating")
+            Text("History button")
         }
         
     }
@@ -31,5 +36,3 @@ struct ExerciseView_Previews: PreviewProvider {
         ExerciseView(index: 0)
     }
 }
-
-
