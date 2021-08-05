@@ -37,6 +37,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB0E076826BBC0BC0080BFD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBA8869D26BBBB16000ABF50 /* ContentView.swift */,
+				EBA886AA26BBBB33000ABF50 /* ExerciseView.swift */,
+				EBA886AC26BBBBC7000ABF50 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EBA8868F26BBBB16000ABF50 = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				EBA8869B26BBBB16000ABF50 /* PagedApp.swift */,
-				EBA8869D26BBBB16000ABF50 /* ContentView.swift */,
+				EB0E076826BBC0BC0080BFD4 /* Views */,
 				EBA8869F26BBBB17000ABF50 /* Assets.xcassets */,
 				EBA886A426BBBB17000ABF50 /* Info.plist */,
 				EBA886A126BBBB17000ABF50 /* Preview Content */,
-				EBA886AA26BBBB33000ABF50 /* ExerciseView.swift */,
-				EBA886AC26BBBBC7000ABF50 /* WelcomeView.swift */,
 			);
 			path = Paged;
 			sourceTree = "<group>";
