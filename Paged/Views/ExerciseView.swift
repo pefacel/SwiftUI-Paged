@@ -16,7 +16,7 @@ struct ExerciseView: View {
             VStack {
 
 
-                HeaderView(exerciseName: exerciseNames[index])
+                HeaderView(titleText: exerciseNames[index])
                     .padding(.bottom);
                 
                 if let url = Bundle.main.url(

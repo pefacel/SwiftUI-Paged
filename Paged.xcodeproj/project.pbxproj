@@ -13,12 +13,14 @@
 		EB1A2C0326BC9B27004F73EC /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EB1A2C0226BC9B27004F73EC /* step-up.mp4 */; };
 		EB1A2C0526BC9B2D004F73EC /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EB1A2C0426BC9B2D004F73EC /* sun-salute.mp4 */; };
 		EB1A2C0726BCAD70004F73EC /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A2C0626BCAD70004F73EC /* RatingView.swift */; };
+		EB7CA56B26BCE95A00D765B5 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CA56A26BCE95A00D765B5 /* HistoryView.swift */; };
 		EBA8869C26BBBB16000ABF50 /* PagedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA8869B26BBBB16000ABF50 /* PagedApp.swift */; };
 		EBA8869E26BBBB16000ABF50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA8869D26BBBB16000ABF50 /* ContentView.swift */; };
 		EBA886A026BBBB17000ABF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA8869F26BBBB17000ABF50 /* Assets.xcassets */; };
 		EBA886A326BBBB17000ABF50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA886A226BBBB17000ABF50 /* Preview Assets.xcassets */; };
 		EBA886AB26BBBB33000ABF50 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA886AA26BBBB33000ABF50 /* ExerciseView.swift */; };
 		EBA886AD26BBBBC7000ABF50 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA886AC26BBBBC7000ABF50 /* WelcomeView.swift */; };
+		EBB72ED026C1A649009660B3 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB72ECF26C1A649009660B3 /* SuccessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		EB1A2C0226BC9B27004F73EC /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
 		EB1A2C0426BC9B2D004F73EC /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
 		EB1A2C0626BCAD70004F73EC /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		EB7CA56A26BCE95A00D765B5 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		EBA8869826BBBB16000ABF50 /* Paged.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paged.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA8869B26BBBB16000ABF50 /* PagedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedApp.swift; sourceTree = "<group>"; };
 		EBA8869D26BBBB16000ABF50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		EBA886A426BBBB17000ABF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA886AA26BBBB33000ABF50 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		EBA886AC26BBBBC7000ABF50 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		EBB72ECF26C1A649009660B3 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				EBA886AC26BBBBC7000ABF50 /* WelcomeView.swift */,
 				EB0E076926BBE3570080BFD4 /* HeaderView.swift */,
 				EB1A2C0626BCAD70004F73EC /* RatingView.swift */,
+				EB7CA56A26BCE95A00D765B5 /* HistoryView.swift */,
+				EBB72ECF26C1A649009660B3 /* SuccessView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB72ED026C1A649009660B3 /* SuccessView.swift in Sources */,
+				EB7CA56B26BCE95A00D765B5 /* HistoryView.swift in Sources */,
 				EB0E076A26BBE3570080BFD4 /* HeaderView.swift in Sources */,
 				EBA886AB26BBBB33000ABF50 /* ExerciseView.swift in Sources */,
 				EBA8869E26BBBB16000ABF50 /* ContentView.swift in Sources */,
